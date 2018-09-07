@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="codiac_Brands" class="Codiac\Brands\Block\Widget\Brands">
+        <label translate="true">Codiac Brands </label>
+        <description translate="true">Generate Brands</description>
+        <parameters>
+
+            <parameter name="SUMSUNG" xsi:type="text" visible="true">
+                <label translate="true">SUMSUNG</label>
+                <!--<description translate="true"><![CDATA[Input the widget title. Empty for hide]]></description>-->
+            </parameter>
+
+
+            <parameter name="LG" xsi:type="text" visible="true">
+                <label translate="true">LG</label>
+                <!--<description translate="true"><![CDATA[Input the widget title. Empty for hide]]></description>-->
+            </parameter>
+
+
+
+            <parameter name="ADATA" xsi:type="text" visible="true">
+                <label translate="true">ADATA</label>
+                <!--<description translate="true"><![CDATA[Input the widget title. Empty for hide]]></description>-->
+            </parameter>
+
+
+
+            <parameter name="PANASONIC" xsi:type="text" visible="true">
+                <label translate="true">PANASONIC</label>
+                <!--<description translate="true"><![CDATA[Input the widget title. Empty for hide]]></description>-->
+            </parameter>
+
+
+        </parameters>
+    </widget>
+</widgets>

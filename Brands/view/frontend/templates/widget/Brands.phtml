@@ -1,0 +1,48 @@
+<?php
+$SUMSUNG        = $this->getConfig('SUMSUNG');
+$ADATA        = $this->getConfig('ADATA');
+$LG          = $this->getConfig('LG');
+$PANASONIC          = $this->getConfig('PANASONIC');
+
+?>
+<html xmlns="http://www.w3.org/1999/html">
+
+<body class="brandsbox clearfix">
+<!--<div class="row-brand">-->
+<!--    <div class="column-brand">-->
+<!--        <a href="--><?php //echo $SUMSUNG ;?><!--" ><img src= --><?php //echo $block->getViewFileUrl("Codiac_Brands::images")."/sumsung.png";?><!-- style="width:100%" class="img" /></a>-->
+<!--        <a href="--><?php //echo $ADATA ;?><!--" ><img src= --><?php //echo $block->getViewFileUrl("Codiac_Brands::images")."/panasonic.png";?><!-- style="width:100%" class="img" /></a>-->
+<!--    </div>-->
+<!--    <div class="column-brand">-->
+<!--        <a href="--><?php //echo $LG;?><!--" ><img src= --><?php //echo $block->getViewFileUrl("Codiac_Brands::images")."/LG.jpg";?><!-- style="width:100%" class="img" /></a>-->
+<!--        <a href="--><?php //echo $PANASONIC;?><!--" ><img src= --><?php //echo $block->getViewFileUrl("Codiac_Brands::images")."/adata.png";?><!--  style="width:100%" class="img" /></a>-->
+<!--    </div>-->
+<!--</div>-->
+<div class="codiac-brand-box">
+
+<div class="brand codiac-box">
+    <div class="brand-img">
+        <a href="<?php echo $SUMSUNG ;?>" ><img src=<?php echo $block->getViewFileUrl("Codiac_Brands::images")."/sumsung.png";?> style="width:100%" class="img" /></a>
+    </div>
+</div>
+
+    <div class="brand mrg-r-0 codiac-box">
+        <div class="brand-img">
+            <a href="<?php echo $ADATA ;?>" ><img src= <?php echo $block->getViewFileUrl("Codiac_Brands::images")."/panasonic.png";?> style="width:100%" class="img" /></a>
+        </div>
+    </div>
+
+    <div class="brand codiac-box">
+        <div class="brand-img">
+            <a href="<?php echo $SUMSUNG ;?>" ><img src=<?php echo $block->getViewFileUrl("Codiac_Brands::images")."/LG.jpg";?> style="width:100%" class="img" /></a>
+        </div>
+    </div>
+
+        <div class="brand mrg-r-0 codiac-box">
+            <div class="brand-img">
+                <a href="<?php echo $ADATA ;?>" ><img src= <?php echo $block->getViewFileUrl("Codiac_Brands::images")."/adata.png";?> style="width:100%" class="img" /></a>
+            </div>
+        </div>
+</div>
+</body>
+</html>
